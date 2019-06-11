@@ -1,6 +1,6 @@
 import csv
 import json
-
+import math
 
 def get_document0(file_name):
     document0 = {}
@@ -41,18 +41,40 @@ print(*set(document1) - set(document0), sep='\n')
 print(*set(document2) - set(document0), sep='\n')    
 print('-' * 70)
 
-
-def average_of_2_sites():
+less = {}
+more = {}
+def average_of_2_sites(document0, document1, document2):
+    less = {}
+    more = {}
     for name in set(document1).union(document2):
-        total_summ = 0
+        total_sum = 0
         number_same_items = 0
         if name in document1:
-            total_summ += document1[name]
+            total_sum += document1[name]
             number_same_items += 1
         if name in document2:
-            total_summ += document2[name]
-            number_same_items += 1
-        print(f"Name: {name}   Average price: {total_summ // number_same_items}")
+            total_sum += document2[name]
+            number_same_items += 1 
+        avg = total_sum // number_same_items
+        if name in document0:
+            if abs(document0[name] - avg) > 400:
+                more[name] = avg
+            elif abs(document0[name] - avg) < 400:
+                less[name] = avg
+        
+        
+
+    print('Avg is less: ')
+    for name, avg in less.items():
+        print(f'Name: {name} Price: {document0[name]} Average price: {avg}')
+    print('-' * 70)
+    print('Avg is more')
+    for name, avg in more.items():
+        print(f'Name: {name} Price {document0[name]} Average price: {avg}')
+    
 
 
-print(average_of_2_sites())
+print(average_of_2_sites(document0, document1, document2))
+
+
+
