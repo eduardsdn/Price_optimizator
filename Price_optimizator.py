@@ -28,9 +28,11 @@ def get_document2(file_name, catalog1, catalog2, catalog3):
             document2[item['name']] = item['price']
     return document2
 
+
 document0 = get_document0('Pricelist.csv')
 document1 = get_document1('Price_optimizatorG_M.video.json', "M.video", "Games_Soft_&_Entertainment", "Games_for_PS4")
 document2 = get_document2('PSStore_saleG.json', "PlayStationStore", "Games", "PS4")
+
 
 print('-' * 70)
 print('These items are missing in your shop, but they are sold in others:')
@@ -38,3 +40,19 @@ print("↓" * 70)
 print(*set(document1) - set(document0), sep='\n')
 print(*set(document2) - set(document0), sep='\n')    
 print('-' * 70)
+
+
+def average_of_2_sites():
+    for name in set(document1).union(document2):
+        total_summ = 0
+        number_same_items = 0
+        if name in document1:
+            total_summ += document1[name]
+            number_same_items += 1
+        if name in document2:
+            total_summ += document2[name]
+            number_same_items += 1
+        print(f"Name: {name}   Average price: {total_summ // number_same_items}")
+
+
+print(average_of_2_sites())
