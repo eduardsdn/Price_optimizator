@@ -6,3 +6,5 @@ def get_document0(file_name):
             parts = line.split(',')
             document0[parts[1]] = int(parts[2])
     return document0
+
+#change
