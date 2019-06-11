@@ -1,3 +1,4 @@
+import csv
 
 def get_document0(file_name):
     document0 = {}
@@ -25,6 +26,6 @@ def get_document2(file_name, catalog1, catalog2, catalog3):
             document2[item['name']] = item['price']
     return document2
 
-
+document0 = get_document0('Pricelist.csv')
 document1 = get_document1('Price_optimizatorG_M.video.json', "M.video", "Games_Soft_&_Entertainment", "Games_for_PS4")
 document2 = get_document2('PSStore_saleG.json', "PlayStationStore", "Games", "PS4")
