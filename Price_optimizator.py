@@ -44,6 +44,8 @@ print('-' * 70)
 less = {}
 more = {}
 def average_of_2_sites(document0, document1, document2):
+    a = int(input("Enter a higher boundary"))
+    b = int(input("Enter a lower boundary"))
     less = {}
     more = {}
     for name in set(document1).union(document2):
@@ -57,9 +59,9 @@ def average_of_2_sites(document0, document1, document2):
             number_same_items += 1 
         avg = total_sum // number_same_items
         if name in document0:
-            if  avg - document0[name] >= 400:
+            if  avg - document0[name] >= a:
                 more[name] = avg
-            elif avg - document0[name] <= -400:
+            elif avg - document0[name] <= -b:
                 less[name] = avg
         
         
@@ -75,6 +77,4 @@ def average_of_2_sites(document0, document1, document2):
 
 
 print(average_of_2_sites(document0, document1, document2))
-
-
 
