@@ -96,11 +96,11 @@ def average_of_2_sites(document0, document1, document2, document3, document4):
 
     print('Avg is less: ')
     for name, avg in less.items():
-        print(f'Name: {name} Price: {document0[name]} Average price: {avg}')
+        print(f'Name: {name} Price: {document0[name]} Average price: {avg} Difference: {document0[name] - avg}')
     print('-' * 70)
     print('Avg is more')
     for name, avg in more.items():
-        print(f'Name: {name} Price {document0[name]} Average price: {avg}')
+        print(f'Name: {name} Price {document0[name]} Average price: {avg} Difference: {avg - document0[name]}')
     
 
 
