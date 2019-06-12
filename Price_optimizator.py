@@ -49,8 +49,8 @@ def get_document4(file_name, catalog1, catalog2, catalog3):
 def get_document5(file_name, catalog1, catalog2, catalog3, catalog4, catalog5):
     document5 = {}
     with open(file_name, 'r', encoding='utf-8') as f:
-        data = json.loads(f.read())
-        for item in data[catalog1][catalog2][catalog3][catalog4][catalog5]:
+       data = json.loads(f.read())
+       for item in data[catalog1][catalog2][catalog3][catalog4][catalog5]:
             document5[item['name']] = item['price']
     return document5
         
