@@ -38,16 +38,28 @@ def get_document3(file_name, catalog1, catalog2, catalog3):
     return document3
 
 
+def get_document4(file_name, catalog1, catalog2, catalog3):
+    document4 = {}
+    with open(file_name, 'r', encoding='utf-8') as f:
+        data = json.loads(f.read())
+        for item in data[catalog1][catalog2][catalog3]:
+            document4[item['name']] = item['price']
+    return document4
+
+
 document0 = get_document0('Pricelist.csv')
 document1 = get_document1('Price_optimizatorG_M.video.json', "M.video", "Games_Soft_&_Entertainment", "Games_for_PS4")
 document2 = get_document2('PSStore_saleG.json', "PlayStationStore", "Games", "PS4")
 document3 = get_document3('Game_Park.json', "Game_Park_main_page", "PlayStation_4", "Games")
+document4 = get_document4('1C_Interest.json', "1C_Interest", "Games_&_Consols", "Playstation_4")
+
 
 print('-' * 70)
 print('These items are missing in your shop, but they are sold in others:')
 print("↓" * 70)
 print(*set(document1) - set(document0), sep='\n')
 print(*set(document2) - set(document0), sep='\n')
+print(*set(document3) - set(document0), sep='\n')
 print(*set(document3) - set(document0), sep='\n')    
 print('-' * 70)
 
