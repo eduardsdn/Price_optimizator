@@ -46,12 +46,21 @@ def get_document4(file_name, catalog1, catalog2, catalog3):
             document4[item['name']] = item['price']
     return document4
 
+def get_document5(file_name, catalog1, catalog2, catalog3, catalog4, catalog5):
+    document5 = {}
+    with open(file_name, 'r', encoding='utf-8') as f:
+        data = json.loads(f.read())
+        for item in data[catalog1][catalog2][catalog3][catalog4][catalog5]:
+            document5[item['name']] = item['price']
+    return document5
+        
 
 document0 = get_document0('Pricelist.csv')
 document1 = get_document1('Price_optimizatorG_M.video.json', "M.video", "Games_Soft_&_Entertainment", "Games_for_PS4")
 document2 = get_document2('PSStore_saleG.json', "PlayStationStore", "Games", "PS4")
 document3 = get_document3('Game_Park.json', "Game_Park_main_page", "PlayStation_4", "Games")
 document4 = get_document4('1C_Interest.json', "1C_Interest", "Games_&_Consols", "Playstation_4")
+document5 = get_document5('DNS.json', "DNS", "Games_&_Consols", "Entertainment", "Videogames", "PS4")
 
 
 print('-' * 70)
@@ -65,9 +74,9 @@ print('-' * 70)
 
 less = {}
 more = {}
-def average_of_2_sites(document0, document1, document2, document3, document4):
-    a = int(input("Enter a higher boundary"))
-    b = int(input("Enter a lower boundary"))
+def average_of_2_sites(document0, document1, document2, document3, document4, document5):
+    a = int(input("Enter a higher boundary: "))
+    b = int(input("Enter a lower boundary: "))
     less = {}
     more = {}
     for name in set(document1).union(document2):
@@ -85,6 +94,9 @@ def average_of_2_sites(document0, document1, document2, document3, document4):
         if name in document4:
             total_sum += document4[name]
             number_same_items += 1
+        if name in document5:
+            total_sum += document5[name]
+            number_same_items += 1
         avg = total_sum // number_same_items
         if name in document0:
             if  avg - document0[name] >= a:
@@ -96,13 +108,13 @@ def average_of_2_sites(document0, document1, document2, document3, document4):
 
     print('Avg is less: ')
     for name, avg in less.items():
-        print(f'Name: {name} Price: {document0[name]} Average price: {avg} Difference: {document0[name] - avg}')
+        print(f'Name: {name}, Price: {document0[name]}, Average price: {avg}, Difference: {document0[name] - avg}')
     print('-' * 70)
     print('Avg is more')
     for name, avg in more.items():
-        print(f'Name: {name} Price {document0[name]} Average price: {avg} Difference: {avg - document0[name]}')
+        print(f'Name: {name}, Price {document0[name]}, Average price: {avg}, Difference: {avg - document0[name]}')
     
 
 
-print(average_of_2_sites(document0, document1, document2, document3, document4))
+print(average_of_2_sites(document0, document1, document2, document3, document4, document5))
 
