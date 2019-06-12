@@ -70,6 +70,8 @@ more = {}
 def average_of_2_sites(document0, document1, document2, document3, document4, document5):
     a = int(input("Enter a higher boundary: "))
     b = int(input("Enter a lower boundary: "))
+    print('These items are missing in your shop, but they are sold in others:')
+    print("↓" * 80)
     less = {}
     more = {}
     for name in set(document1).union(document2):
@@ -95,12 +97,11 @@ def average_of_2_sites(document0, document1, document2, document3, document4, do
             if  avg - document0[name] >= a:
                 more[name] = avg
             elif avg - document0[name] <= -b:
-                less[name] = avg
+                less[name] = avg     
         else:
-            print(f'The item: {name} is sold in {number_same_items} shop(s), but is not in your shop')
+            print(f'The item: {name} is sold in {number_same_items} shop(s)')
+    print('_' * 80)
 
-        
-        
 
     print('Avg is less: ')
     for name, avg in less.items():
