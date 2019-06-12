@@ -19,6 +19,10 @@
                     "price": 990
                 },
                 {
+                    "name": "Capcom Resident Evil 2",
+                    "price": 3990
+                },
+                {
                     "name": "Take Two Red Dead Redemption 2",
                     "price": 2990
                 },
@@ -33,10 +37,6 @@
                 {
                     "name": "Capcom Street Fighter V",
                     "price": 1590
-                },
-                {
-                    "name": "Take Two Grand Theft Auto V",
-                    "price": 1999
                 },
                 {
                     "name": "EA FIFA 19",
@@ -93,6 +93,10 @@
                 {
                     "name": "Ubisoft Just Dance 2019",
                     "price": 1599
+                },
+                {
+                    "name": "Ubisoft Far Cry 5",
+                    "price": 3250
                 },
                 {
                     "name": "Bethesda Dishonored. Definitive Edition",
@@ -189,10 +193,6 @@
                 {
                     "name": "Sony Detroit: Стать человеком",
                     "price": 3590
-                },
-                {
-                    "name": "Ubisoft Far Cry 5",
-                    "price": 1990
                 },
                 {
                     "name": "Ubisoft Watch_Dogs. Хиты PlayStation",
@@ -308,7 +308,7 @@
                 },
                 {
                     "name": "Ubisoft Assassin's Creed Истоки",
-                    "price": 2090
+                    "price": 3590
                 },
                 {
                     "name": "WB Batman:Рыцарь Аркхема",
@@ -317,6 +317,10 @@
                 {
                     "name": "Sony Безумцы",
                     "price": 1350
+                },
+                {
+                    "name": "Take Two Grand Theft Auto V",
+                    "price": 3490
                 },
                 {
                     "name": "Ninja Theory Hellblade: Senua's Sacrifice",
@@ -346,10 +350,7 @@
                     "name": "EA Star Wars Battlefront 2",
                     "price": 2190
                 },
-                {
-                    "name": "EA The Sims 4",
-                    "price": 1299
-                },
+
                 {
                     "name": "Ubisoft Far Cry 3 Classic Edition",
                     "price": 1490
@@ -399,16 +400,16 @@
                     "price": 1890
                 },
                 {
-                    "name": "Capcom Resident Evil 2",
-                    "price": 1590
-                },
-                {
                     "name": "WB Rocket League Collector's Edition",
                     "price": 1790
                 },
                 {
                     "name": "Sony Arizona Sunshine (только для VR)",
                     "price": 990
+                },
+                {
+                    "name": "EA The Sims 4",
+                    "price": 2990
                 },
                 {
                     "name": "Square Enix Murdered: Soul Suspect",

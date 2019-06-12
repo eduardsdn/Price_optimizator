@@ -35,10 +35,6 @@
                     "price": 1290
                 },
                 {
-                    "name": "Take Two Grand Theft Auto V",
-                    "price": 3090
-                },
-                {
                     "name": "EA FIFA 19",
                     "price": 3990
                 },
@@ -61,6 +57,10 @@
                 {
                     "name": "Bethesda RAGE 2",
                     "price": 3990
+                },
+                {
+                    "name": "Ubisoft Far Cry 5",
+                    "price": 3590
                 },
                 {
                     "name": "Sony Uncharted: Натан Дрейк (Хиты PlayStation)",
@@ -93,6 +93,10 @@
                 {
                     "name": "Ubisoft Just Dance 2019",
                     "price": 2090
+                },
+                {
+                    "name": "Take Two Grand Theft Auto V",
+                    "price": 3990
                 },
                 {
                     "name": "Bethesda Dishonored. Definitive Edition",
@@ -157,6 +161,10 @@
                 {
                     "name": "The LEGO Movie 2: Videogame",
                     "price": 2999
+                },
+                {
+                    "name": "EA The Sims 4",
+                    "price": 3790
                 },
                 {
                     "name": "Generation Zero",
@@ -229,10 +237,6 @@
                 {
                     "name": "Sony Detroit: Стать человеком",
                     "price": 3990
-                },
-                {
-                    "name": "Ubisoft Far Cry 5",
-                    "price": 2990
                 },
                 {
                     "name": "Ubisoft Watch_Dogs. Хиты PlayStation",
@@ -348,7 +352,7 @@
                 },
                 {
                     "name": "Ubisoft Assassin's Creed Истоки",
-                    "price": 2990
+                    "price": 3290
                 },
                 {
                     "name": "WB Batman:Рыцарь Аркхема",
@@ -387,12 +391,12 @@
                     "price": 2190
                 },
                 {
-                    "name": "EA The Sims 4",
-                    "price": 2290
-                },
-                {
                     "name": "Ubisoft Far Cry 3 Classic Edition",
                     "price": 2490
+                },
+                {
+                    "name": "Capcom Resident Evil 2",
+                    "price": 4990
                 },
                 {
                     "name": "Konami Pro Evolution Soccer 2019",
@@ -437,10 +441,6 @@
                 {
                     "name": "THQ Nordic Red Faction Guerrilla Re-Mars-tered",
                     "price": 1590
-                },
-                {
-                    "name": "Capcom Resident Evil 2",
-                    "price": 3790
                 },
                 {
                     "name": "Ubisoft The Crew 2 Deluxe",

@@ -51,10 +51,6 @@
                     "price": 2490
                 },
                 {
-                    "name": "Take Two Grand Theft Auto V",
-                    "price": 3090
-                },
-                {
                     "name":"LEGO Worlds" ,
                     "price": 1190
                 },
@@ -105,6 +101,10 @@
                 {
                     "name": "Sony Uncharted 4: Путь вора (Хиты PlayStation)",
                     "price": 2350
+                },
+                {
+                    "name": "Capcom Resident Evil 2",
+                    "price": 4190
                 },
                 {
                     "name": "Activision Call of Cthulhu",
@@ -203,6 +203,10 @@
                     "price": 3590
                 },
                 {
+                    "name": "Take Two Grand Theft Auto V",
+                    "price": 3990
+                },
+                {
                     "name": "Ubisoft Watch Dogs 2",
                     "price": 1990
                 },
@@ -225,10 +229,6 @@
                 {
                     "name":"World of Warriors" ,
                     "price": 1590
-                },
-                {
-                    "name": "Ubisoft Far Cry 5",
-                    "price": 2990
                 },
                 {
                     "name": "Ubisoft Watch_Dogs. Хиты PlayStation",
@@ -311,6 +311,10 @@
                     "price": 1390
                 },
                 {
+                    "name": "EA The Sims 4",
+                    "price": 3690
+                },
+                {
                     "name": "Sony Gran Turismo Sport",
                     "price": 2590
                 },
@@ -325,6 +329,10 @@
                 {
                     "name": "Bandai Namco Dark Souls III",
                     "price": 1990
+                },
+                {
+                    "name": "Ubisoft Far Cry 5",
+                    "price": 3990
                 },
                 {
                     "name": "Sony Horizon Zero Dawn Complete Edition",
@@ -348,7 +356,7 @@
                 },
                 {
                     "name": "Ubisoft Assassin's Creed Истоки",
-                    "price": 2990
+                    "price": 3990
                 },
                 {
                     "name": "WB Batman:Рыцарь Аркхема",
@@ -389,10 +397,6 @@
                 {
                     "name": "EA Star Wars Battlefront 2",
                     "price": 2190
-                },
-                {
-                    "name": "EA The Sims 4",
-                    "price": 2790
                 },
                 {
                     "name": "Ubisoft Far Cry 3 Classic Edition",
@@ -441,10 +445,6 @@
                 {
                     "name": "THQ Nordic Red Faction Guerrilla Re-Mars-tered",
                     "price": 1390
-                },
-                {
-                    "name": "Capcom Resident Evil 2",
-                    "price": 3790
                 },
                 {
                     "name":"Injustice 2. Legendary Edition" ,
