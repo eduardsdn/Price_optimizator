@@ -63,14 +63,7 @@ document4 = get_document4('1C_Interest.json', "1C_Interest", "Games_&_Consols", 
 document5 = get_document5('DNS.json', "DNS", "Games_&_Consols", "Entertainment", "Videogames", "PS4")
 
 
-print('-' * 70)
-print('These items are missing in your shop, but they are sold in others:')
-print("↓" * 70)
-print(*set(document1) - set(document0), sep='\n')
-print(*set(document2) - set(document0), sep='\n')
-print(*set(document3) - set(document0), sep='\n')
-print(*set(document3) - set(document0), sep='\n')    
-print('-' * 70)
+
 
 less = {}
 more = {}
@@ -103,6 +96,9 @@ def average_of_2_sites(document0, document1, document2, document3, document4, do
                 more[name] = avg
             elif avg - document0[name] <= -b:
                 less[name] = avg
+        else:
+            print(f'The item: {name} is sold in {number_same_items} shop(s), but is not in your shop')
+
         
         
 
