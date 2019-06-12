@@ -67,6 +67,9 @@ def average_of_2_sites(document0, document1, document2):
         if name in document2:
             total_sum += document2[name]
             number_same_items += 1 
+        if name in document3:
+            total_sum += document3[name]
+            number_same_items += 1 
         avg = total_sum // number_same_items
         if name in document0:
             if  avg - document0[name] >= a:
