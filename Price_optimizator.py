@@ -74,7 +74,7 @@ def average_of_2_sites(document0, document1, document2, document3, document4, do
     print("↓" * 80)
     less = {}
     more = {}
-    for name in set(document1).union(document2):
+    for name in set(document1).union(document2).union(document3).union(document4).union(document5):
         total_sum = 0
         number_same_items = 0
         if name in document1:
