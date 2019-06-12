@@ -63,10 +63,6 @@ document4 = get_document4('1C_Interest.json', "1C_Interest", "Games_&_Consols", 
 document5 = get_document5('DNS.json', "DNS", "Games_&_Consols", "Entertainment", "Videogames", "PS4")
 
 
-
-
-less = {}
-more = {}
 def average_of_2_sites(document0, document1, document2, document3, document4, document5):
     a = int(input("Enter a higher boundary: "))
     b = int(input("Enter a lower boundary: "))
