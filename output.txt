@@ -1,1 +1,80 @@
-
+These items are missing in your shop, but they are sold in others:
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+The item: WB Rocket League Collector's Edition is sold in 1 shop(s)
+The item: Gearbox Software Borderlands 3. Deluxe Edition is sold in 1 shop(s)
+The item: World of Warriors is sold in 1 shop(s)
+The item: The Division 2 is sold in 5 shop(s)
+The item: Generation Zero is sold in 1 shop(s)
+The item: Gearbox Software Borderlands 2 is sold in 1 shop(s)
+The item: Sony Uncharted 2: Среди воров. Обновленная версия is sold in 4 shop(s)
+The item: Ubisoft Rainbow Six Siege Advance Edition is sold in 4 shop(s)
+The item: LEGO Worlds is sold in 1 shop(s)
+The item: Tennis World Tour is sold in 1 shop(s)
+The item: PlayerUnknown’s Battlegrounds is sold in 1 shop(s)
+The item: Warhammer: Chaosbane is sold in 1 shop(s)
+The item: Injustice 2. Legendary Edition is sold in 1 shop(s)
+The item: Agony is sold in 1 shop(s)
+The item: EA Titanfall 2 is sold in 4 shop(s)
+The item: The Sinking City. Издание первого дня is sold in 1 shop(s)
+The item: Ubisoft The Crew 2 Deluxe is sold in 4 shop(s)
+The item: NieR: Automata Game of the YoRHa Edition  is sold in 1 shop(s)
+The item: Кровь и истина (только для VR) is sold in 1 shop(s)
+The item: Capcom Resident Evil 7:Biohazard VR is sold in 5 shop(s)
+The item: The LEGO Movie 2: Videogame is sold in 3 shop(s)
+The item: Outlast Trinity is sold in 2 shop(s)
+The item: Sony inFAMOUS: Первый свет is sold in 2 shop(s)
+The item: MachineGames Wolfenstein: Youngblood. Deluxe Edition is sold in 1 shop(s)
+The item: Kojima Productions Death Stranding is sold in 1 shop(s)
+The item: EA Mass Effect Andromeda is sold in 1 shop(s)
+The item: Generation Zero Коллекционное издание  is sold in 1 shop(s)
+The item: LEGO CITY Undercover is sold in 1 shop(s)
+The item: Sony No Man's Sky is sold in 1 shop(s)
+The item: Sony Arizona Sunshine (только для VR) is sold in 1 shop(s)
+The item: Mortal Kombat 11. Kollector's Edition is sold in 1 shop(s)
+The item: Bandai Namco Ace Combat 7: Skies Unknown is sold in 1 shop(s)
+The item: Onrush is sold in 2 shop(s)
+The item: Dirt Rally 2.0 Издание первого дня is sold in 1 shop(s)
+The item: Square Enix Murdered: Soul Suspect is sold in 1 shop(s)
+________________________________________________________________________________
+Avg is less:
+Name: WB Injustice: Gods Among Us Ultimate Edition, Price: 1990, Average price: 1511, Difference: 479
+Name: Bethesda DOOM, Price: 3990, Average price: 1590, Difference: 2400
+Name: Sekiro: Shadows Die Twice, Price: 3990, Average price: 3470, Difference: 520
+Name: Ubisoft Just Dance 2019, Price: 2990, Average price: 2571, Difference: 419
+Name: Bandai Namco God Eater 3, Price: 3999, Average price: 2942, Difference: 1057
+Name: WB Mad Max, Price: 3590, Average price: 2111, Difference: 1479
+Name: Bandai Namco SoulCalibur VI, Price: 3990, Average price: 2192, Difference: 1798
+Name: Activision Call of Duty:Black Ops 4, Price: 3990, Average price: 3190, Difference: 800
+Name: WB Средиземье:Тени Войны, Price: 3490, Average price: 1390, Difference: 2100
+Name: Bethesda Fallout 76, Price: 3990, Average price: 1950, Difference: 2040
+Name: Focus Home Vampyr, Price: 3990, Average price: 3022, Difference: 968
+Name: THQ Nordic Darksiders III, Price: 3490, Average price: 2590, Difference: 900
+Name: Codemasters Dirt 4. Издание первого дня, Price: 1990, Average price: 1510, Difference: 480
+Name: Activision Call of Duty: WWII, Price: 3990, Average price: 2682, Difference: 1308
+Name: EA Anthem Limited Steelbook Edition, Price: 4490, Average price: 3811, Difference: 679
+Name: Bethesda Fallout 76. Tricentennial Edition, Price: 4490, Average price: 2190, Difference: 2300
+Name: Bandai Namco Dark Souls Remastered, Price: 2490, Average price: 1910, Difference: 580
+Name: Bethesda Dishonored. Definitive Edition, Price: 2890, Average price: 1530, Difference: 1360
+Name: Take Two Red Dead Redemption 2, Price: 4290, Average price: 3390, Difference: 900
+Name: WB HITMAN 2, Price: 3990, Average price: 2890, Difference: 1100
+Name: Square Enix Just Cause 4, Price: 2990, Average price: 2390, Difference: 600
+Name: Square Enix Final Fantasy XV Royal Edition, Price: 3190, Average price: 1851, Difference: 1339
+Name: Capcom Marvel vs. Capcom: Infinite, Price: 3790, Average price: 1770, Difference: 2020
+Name: Bandai Namco Jump Force, Price: 3990, Average price: 3030, Difference: 960
+Name: Bandai Namco Naruto to Boruto: Shinobi Striker, Price: 3690, Average price: 2410, Difference: 1280
+Name: Capcom Street Fighter V, Price: 2990, Average price: 1290, Difference: 1700
+Name: Ubisoft Assassin'S Creed Odyssey, Price: 3990, Average price: 2831, Difference: 1159
+Name: Square Enix Rise of the Tomb Raider. 20-летний юбилей, Price: 1990, Average price: 1350, Difference: 640
+Name: Bethesda Prey, Price: 3990, Average price: 2310, Difference: 1680
+Name: Capcom Dead Rising 4, Price: 2990, Average price: 1491, Difference: 1499
+______________________________________________________________________
+Avg is more
+Name: Sony Uncharted: Натан Дрейк (Хиты PlayStation), Price 1150, Average price: 1550, Difference: 400
+Name: Ubisoft Far Cry 5, Price 2990, Average price: 3562, Difference: 572
+Name: Take Two Mafia III, Price 799, Average price: 1433, Difference: 634
+Name: Activision Call of Duty:Black Ops III Nuketown Edition, Price 1990, Average price: 2602, Difference: 612
+Name: Ubisoft Assassin's Creed IV.Черный флаг. Хиты PlayStation, Price 1190, Average price: 1730, Difference: 540
+Name: Ubisoft Assassin's Creed Истоки, Price 2990, Average price: 3570, Difference: 580
+Name: EA FIFA 18, Price 2190, Average price: 2711, Difference: 521
+Name: Ubisoft Watch_Dogs. Хиты PlayStation, Price 1190, Average price: 1750, Difference: 560
+Name: EA The Sims 4, Price 2790, Average price: 3210, Difference: 420

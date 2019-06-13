@@ -32,7 +32,7 @@ docs = [
 ]
 
 def average_of_2_sites(document0, *docs):
-    with open('output.txt', 'w', encoding='utf-8') as f:
+    with open('output.txt', 'wt', encoding='utf-8') as f:
         a = int(input("Enter a higher boundary: "))
         b = int(input("Enter a lower boundary: "))
         f.write('These items are missing in your shop, but they are sold in others:\n')
